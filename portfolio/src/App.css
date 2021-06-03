@@ -1,0 +1,7 @@
+ .app_list{ 
+  width: 800px;
+  height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+ 
+} 

@@ -1,0 +1,25 @@
+.right_top{
+    
+    width :650px;
+   height:400px;
+    background-color: rgba(7, 7, 7, 0.884);
+    float:right;
+      height: 230px; 
+    border-bottom: 1px solid rgb(94, 92, 92);
+}
+.right_top h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.right_top h5{
+    color: green;
+    font-size: 20px;
+    margin-left: 20px;
+}
+p{
+    color: white;
+    margin-left: 20px;
+   
+}

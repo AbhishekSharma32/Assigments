@@ -1,0 +1,40 @@
+
+.photo{
+   position: absolute;
+    width :632px;
+    height:630px;
+     background-color: black; 
+     float: left; 
+     margin-left: 50px;
+}
+ .photo >img{
+    width: 634px;
+    height:630px;
+}  
+ /* .wrp{
+    border:2px solid;
+    
+ } */
+ .photo_name{
+     position: relative;
+     bottom:120px;
+      left:250px; 
+      /* background-color: indianred;  */
+     width: 170px;
+     height: 80px;
+ }
+ .photo_name >h4{
+     margin-left: 50px;
+     font-size: 15px;
+     color: green;
+ } 
+ .photo_icon{
+display: flex;
+justify-content: space-evenly;
+    position: relative;
+    bottom:130px;
+     left:250px; 
+      /* background-color: indianred;   */
+    width: 170px;
+    height: 20px;
+ }
