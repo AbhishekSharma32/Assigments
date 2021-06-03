@@ -1,0 +1,105 @@
+.post{
+    /* border: 2px solid red; */
+      width:600px;
+      height:540px;
+      background-color:white;
+      border-radius: 15px;
+      margin-top: 20px;
+      box-shadow: 0px 1px 3px 2px rgba(76, 75, 75, 0.87);
+  }
+      
+  .user{
+      display: flex;
+      justify-content: left;
+      padding-top: 20px;
+      margin-left: 15px;
+      padding-bottom: 5px;
+     border-bottom: 1px solid  lightgray;
+  
+  }
+  p{
+      padding-top: 10px;
+      margin-left: 30px;
+      font-size: large;
+      font-weight: 500;
+      /* border-top: 1px solid rgb(206, 23, 23); */
+  }
+  .user h4{
+      margin-top: 10px;
+      margin-left: 20px;
+  }
+  .post_one >img{
+      width:100%;
+      /* border-radius: 25px; */
+      /* height:200px;
+      margin-left: 150px; */
+  }
+  .post_options{
+      padding-top: 10px; 
+      border-top: 1px solid lightgrey;
+      display: flex;
+      justify-content: space-evenly;
+      font-size:small-caption ;
+      color: gray;
+      cursor:pointer;
+      border-radius: 10px;
+      height:10px;
+    padding:15px; 
+    background-color: white;
+  }
+  .bind{
+      display: flex;
+      flex-direction: column;
+      width: 600px;
+      height: 100px;
+      background-color:white;
+      border-radius: 10px;
+  }
+  .post_option{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:5px;
+      flex:1;
+      /* border-radius: 30px; */
+  }
+  .post_two{
+      /* border: 2px solid red; */
+        width:600px;
+        height:410px;
+        background-color:white;
+        border-radius: 15px;
+        margin-top: 20px;
+        box-shadow: 0px 1px 3px 2px rgba(76, 75, 75, 0.87);
+    
+    }
+    .post_two >img{
+      width:100%;
+      /* border-radius: 10px; */
+      /* height:200px;
+      margin-left: 150px; */
+  }
+  
+.post_opt_top{
+    display:flex;
+    /* border-bottom: 1px solid rgb(180, 175, 175); */
+    padding:15px;
+ }
+ .post_opt_top>form{
+    flex:1; 
+    display:flex;
+    
+ }
+ .post_opt_top>form>input{
+     outline-width:0; 
+    border:none;
+    padding:5px 20px;
+    margin: 0 10px;
+    border-radius:999px;
+    background-color:rgb(212, 212, 198);
+    width:470px;
+ 
+ }
+ .post_opt_input{
+    flex:1;
+ }

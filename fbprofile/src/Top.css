@@ -1,0 +1,91 @@
+.top{
+     width: auto;
+    height:430px; 
+    border-bottom:1px solid grey;
+     /* border: 1px solid red;  */
+     background-image: linear-gradient(grey,white); 
+}
+.top_banner{
+    width:70%;
+    height:300px;
+    margin: auto;
+    position:absolute;
+    left:200px;
+    box-shadow: 0px 1px 3px 5px rgba(76, 75, 75, 0.87);
+
+     border-radius: 20px; 
+    /* border: 5px solid blue;  */
+    /* background-color: cyan; */
+    /* box-shadow:(2px,5px,5px) rgb(223, 211, 211); */
+}
+.cover{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    width: 200px;
+    height:45px;
+    right:-720px;
+    top:-70px;
+     background-color: white; 
+     border-radius: 10px;
+}
+/* .cover_L>img{
+    width: 30px;
+    height:20px;
+    
+} */
+ .cover_R{
+
+font-weight: 600;
+padding-top: 10px;
+} 
+
+.top_banner > img{ 
+    /* margin-top: 30px; */
+    border-radius: 20px;
+      width: 100%;
+     height:300px;
+    
+ } 
+ .profile_photo{
+     position: relative;
+     width:200px;
+     height:200px;
+     left:550px;
+     top:140px;
+     border-radius: 50%;
+     border:5px solid white;
+     background-color: rgb(9, 39, 9);
+ }
+ .profile_photo> img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+ }
+
+ .profile_icon{
+     position: relative;
+     right:-160px;
+     bottom:90px;
+     width: 50px;
+     height:50px;
+     background-color: rgb(219, 215, 219);
+     border-radius: 50%;
+     border: 5px solid rgb(250, 250, 250);
+     
+ }
+ /* h1{
+     align-items: center;
+     margin-left: 20px;
+    
+ } */
+ h5{
+    margin-left: 120px;
+    color: blue;
+    
+ }
+ .top_name{
+     align-items: center;
+     margin-top: 135px;
+     margin-left: 500px;
+ }
