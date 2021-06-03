@@ -1,0 +1,29 @@
+.counter{
+    width:200px;
+    height:auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* border:1px solid red; */
+    margin-left: 570px;
+ 
+}
+
+
+div{
+    /* padding-left: 780px;*/
+    padding:20px; 
+    width: 100vw;
+    height: 100vw;
+    background-color: rgb(143, 110, 60);
+}
+
+
+button{
+    width: 80px;
+    height: 50px;
+    background-color: rgb(74, 218, 223);
+    font-size: x-large;
+    color: black;
+    border: none;
+    border-radius: 2px;
+}
