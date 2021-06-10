@@ -1,0 +1,133 @@
+
+
+.top{
+     /* width: 1200px; */
+     position: absolute;
+     /* border:1px solid green;  */
+    height:490px; 
+    background-image: linear-gradient(rgb(53, 50, 50),rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+
+     width: 100%; 
+     /* margin-left: 20px; */
+    /* box-shadow: 0 0 2px 1px gray; */
+     box-sizing: border-box; 
+     border-bottom:1px solid rgb(236, 234, 234); 
+     /* border: 1px solid red;  */
+     /* background-image: linear-gradient(grey,white);  */
+     /* background-image: linear-gradient(to top, #ffffff,rgba(255,255,2)); */
+     /* background-image: linear-gradient(rgb(129, 126, 126),rgba(151, 148, 148, 0.6), rgba(255,255,255,.9), rgba(255,255,255,0)); */
+}
+.top_banner{
+    width:80%;
+    height:300px;
+     margin: auto; 
+    position:absolute;
+    /* border:2px solid red; */
+   /* margin-left:190px;      */
+   margin-left:10%;
+    /* box-shadow: 0px 1px 3px 5px rgba(76, 75, 75, 0.87); */
+
+     border-radius: 20px; 
+    /* border: 5px solid blue;  */
+    /* background-color: cyan; */
+    /* box-shadow:(2px,5px,5px) rgb(223, 211, 211); */
+}
+.cover{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    width: 180px;
+    height:40px;
+    right:-870px;
+    top:-70px;
+     background-color: rgb(255, 254, 254);
+     /* box-shadow: 2px 2px 2px 3px rgb(216, 216, 216);; */
+     border-radius: 10px;
+}
+ .cover_L>img{
+     padding-top: 8px;
+    width: 30px;
+    height:30px;
+    
+} 
+ .cover_R{
+
+
+padding-top: 10px;
+font-family: inherit;
+font-weight: 600;
+font-size: .9375rem;
+} 
+
+.top_banner > img{ 
+    /* margin-top: 30px; */
+    border-radius: 10px;
+      width: 100%;
+     height:300px;
+     /* border:1px solid gold; */
+     object-fit:fill;
+    
+ } 
+ .profile_photo{
+     position: relative;
+     width:200px;
+     height:200px;
+     left:550px;
+     top:125px;
+     border-radius: 50%;
+     border:3px solid white;
+     background-color: rgb(9, 39, 9);
+ }
+ .profile_photo> img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+ }
+
+ .profile_icon{
+     position: relative;
+     right:-165px;
+     bottom:65px;
+     width: 40px;
+     height:40px;
+     background-color: rgb(228, 227, 228);
+     border-radius: 50%;
+     /* border: 5px solid rgb(250, 250, 250); */
+     
+ }
+ .profile_icon>img{
+     width:30px;
+     height:30px;
+     padding-top:5px;
+    padding-left: 5px;
+    }
+ .top_name h1{
+     /* align-items: center; */
+     /* margin-left: 25px; */
+      font-size: 35px; 
+     /* border:1px solid black; */
+     /* position: absolute; */
+    
+ }
+
+.top_name p{
+     /* margin-left: 10px;  */
+    color: #1877F2;
+    font-family: inherit;
+    font-weight: 600;
+     position: relative; 
+     top:-40px;
+     left: 155px;
+    
+    font-size: .9375rem;
+    
+ }
+ .top_name{
+    font-family: inherit;
+    font-weight: 600;
+    /* border:1px solid red; */
+    font-size: .9375rem;
+     align-items: center;
+     margin-top: 125px;
+     margin-left: 480px;
+ }

@@ -1,0 +1,198 @@
+.post{
+    /* border: 2px solid red; */
+      width:570px;
+      height:540px;
+      /* border: 1px solid red; */
+      background-color:white;
+      /* border-radius: 15px; */
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+
+      margin-top: 10px;
+      position: relative;
+      left:-135px;
+      box-shadow: 0px 0px 1px 0px rgba(76, 75, 75, 0.87);
+      /* position: sticky; */
+  }
+  .dots{
+      position:relative;
+      left:530px;
+      top:-60px;
+      color: grey;
+      font-size: 30px;
+  }
+      
+  .user{
+      display: flex;
+      justify-content: left;
+      padding-top: 10px;
+      margin-left: 15px;
+      padding-bottom: 5px;
+     border-bottom: 1px solid  lightgray;
+       height:40px;
+  }
+  .user img{
+
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    position: relative;
+    top:-40px;
+  }
+  p{
+      padding-top: 10px;
+      /* margin-left: 10px; */
+      font-size: 20px;
+      font-weight: 500;
+      position: relative;
+      top:-60px;
+      left:20px;
+     
+      font-family: inherit;
+      /* border-top: 1px solid rgb(206, 23, 23); */
+  }
+  .user h4{
+      margin-top: 10px;
+      margin-left: 20px;
+  }
+  .post_one >img{
+      width:100%;
+      position: relative;
+      top:-70px;
+      /* border-radius: 25px; */
+      /* height:200px;
+      margin-left: 150px; */
+  }
+  .post_options{
+      padding-top: 10px; 
+      border-top: 1px solid lightgrey;
+      display: flex;
+      justify-content: space-evenly;
+      font-size:small-caption ;
+      color: gray;
+      cursor:pointer;
+      /* border-radius: 10px; */
+      height:10px;
+    padding:15px; 
+    background-color: white;
+  }
+  .bind{
+      display: flex;
+      flex-direction: column;
+      width: 570px;
+      height: 80px;
+      background-color:white;
+      /* border-radius: 10px; */
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      position: relative;
+      top:-16px;
+      
+      /* border: 1px solid rgb(225, 65, 65); */
+  }
+  .post_option{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      /* padding:5px; */
+      /* flex:1; */
+      position: relative;
+      top:-60px;
+      height: 30px;
+      width: 300px;
+      border-top-color:grey;
+      
+      
+       /* border:1px solid yellow;  */
+      /* border-radius: 30px; */
+  }
+  /* .post_two{
+       border: 2px solid red; 
+        width:600px;
+        height:410px;
+        background-color:white;
+        border-radius: 15px;
+        margin-top: 20px;
+        box-shadow: 0px 1px 3px 2px rgba(76, 75, 75, 0.87);
+    
+    }
+    .post_two >img{
+      width:100%;
+      /* border-radius: 10px; */
+      /* height:200px;
+      margin-left: 150px; 
+  } */
+  
+.post_opt_top{
+    display:flex;
+    /* border-bottom: 1px solid rgb(180, 175, 175); */
+    /* padding:15px; */
+    /* border:1px solid green; */
+    position:relative;
+    top:-25px;
+    left:12px;
+    /* box-shadow: 0px 0px 1px 0px rgba(76, 75, 75, 0.87); */
+    
+ }
+ .post_opt_top>form{
+    /* flex:.8;  */
+    width:500px;
+    display:flex;
+    position:relative;
+    left:12px;
+    
+ }
+ .post_opt_top > img{
+ width:40px;
+ height:40px;
+ border-radius: 50%;
+ position: relative;
+ top:-5px;
+ left: 10px;
+ border:1px solid rgb(209, 203, 203);
+}
+ .post_opt_top>form>input{
+     outline-width:0; 
+    border:none;
+    padding:5px 20px;
+    margin: 0 10px;
+    border-radius:999px;
+    background-color:rgb(212, 212, 198);
+    width:470px;
+ 
+ }
+ .post_opt_input{
+    flex:1;
+ }
+ .post_opt_input_sym{
+     width:700px;
+     /* border:1px solid fuchsia; */
+     display: flex;
+     justify-content: space-between;
+     color: rgba(129, 128, 128, 0.979);
+     position: relative;
+     top:10px;
+     right:100px;
+ }
+ .post_opt_top_online{
+     width:5px;
+     height:2px;
+     /* margin-left: 130px; */
+     border-radius: 50%;
+     position:relative;
+     left:2px;
+     top:25px;
+     background-color: rgb(51, 190, 51);
+     border:3px solid green;
+ }
+
+
+  .post_two{
+     background-color: white;
+      /* border-botto-right-radius: 10px; */
+       /* border-bottom-left-radius: 10px;   */
+      border-radius: 10px;
+      box-shadow: 0px 0px 1px 0px rgba(76, 75, 75, 0.87);
+
+  }
+ 
